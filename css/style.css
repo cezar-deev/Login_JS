@@ -19,3 +19,25 @@ input:focus, label:focus {
     outline: none; /*tira a borda azzul dos inputs*/
     
 }
+
+a {
+    color: #E60084
+}
+
+body {
+    padding-top: 5vh; /* view height -> 5% da tela */
+    background-image: url('../img/bg-register-page.jpg');
+    background-size: cover; /* preencher toda a tela */
+    background-position-y: -150px; /* posicionar um pouco maia pra cima */
+}
+
+
+/* FORM  */
+#main-container {
+    width: 500px;
+    margin-left: auto; /*  centraliza  */
+    margin-right: auto; /*  centraliza  */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
