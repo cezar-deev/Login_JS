@@ -1,1 +1,21 @@
 /* geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border:none;
+}
+ /*      */
+
+input, label {  
+    display:block; /*cada um vai ficar numa linha, nao quero um do lado do outro*/
+    width: 100%; /* Largura dele é de 100% */
+}
+
+input:focus, label:focus {  
+    outline: none; /*tira a borda azzul dos inputs*/
+    
+}
