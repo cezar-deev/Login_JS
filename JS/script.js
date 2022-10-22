@@ -7,9 +7,25 @@ class validator {
         ]
     }
 
-    
-}
+    // metodo
+    // O metodo validate, que vai mapear todos os inputs
+    // iniciar a vadação em todos os campos
+    validate(form) {
 
+        // pegar todos os inputs
+        let inputs = form.getElementBytagName('input')
+
+        console.log(inputs)
+
+        // HTMLcolection -> Array 
+        let inputsArray = [...inputs]
+
+        console.log(inputsArray)
+
+    }
+
+
+}
 
 
 
